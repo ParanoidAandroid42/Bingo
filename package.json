@@ -1,0 +1,27 @@
+{
+  "name": "bingomachine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ulas_spinmatic@bitbucket.org/spinmatic/bingomachine.git"
+  },
+  "author": "Spinmatic Entertainment",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/spinmatic/bingomachine#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-javascript-obfuscator": "^1.1.4",
+    "gulp-typescript": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "vinyl-ftp": "^0.6.1",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.3"
+  }
+}

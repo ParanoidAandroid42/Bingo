@@ -1,0 +1,21 @@
+{"frames": {
+
+"Background/bg_landscape_normal":
+{
+	"frame": {"x":0,"y":0,"w":1280,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":720},
+	"sourceSize": {"w":1280,"h":720},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "background-2.png",
+	"format": "RGBA8888",
+	"size": {"w":1280,"h":720},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ccb5a48f358b04870e530634a4b013a2:30161cde4f343c6e25f8b96a65db7a33:6277c2bc827c1d6569e6418afd3b7078$"
+}
+}

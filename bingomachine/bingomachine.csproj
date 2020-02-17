@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{0D64DCC6-AD17-44FB-A8CE-F9FBB1FA02C9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>2.6</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="styles.css" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="core\controller\BackgroundController.ts" />
+    <TypeScriptCompile Include="core\controller\BetController.ts" />
+    <TypeScriptCompile Include="core\controller\BigWinPopupController.ts" />
+    <TypeScriptCompile Include="core\controller\MatrixController.ts" />
+    <TypeScriptCompile Include="core\controller\MatrixBoxController.ts" />
+    <TypeScriptCompile Include="core\controller\CardController.ts" />
+    <TypeScriptCompile Include="core\controller\CardNumberController.ts" />
+    <TypeScriptCompile Include="core\controller\PopupController.ts" />
+    <TypeScriptCompile Include="core\controller\MachineController.ts" />
+    <TypeScriptCompile Include="core\controller\PayoutController.ts" />
+    <TypeScriptCompile Include="core\controller\PayoutSelectorController.ts" />
+    <TypeScriptCompile Include="core\controller\PlayController.ts" />
+    <TypeScriptCompile Include="core\controller\TurboController.ts" />
+    <TypeScriptCompile Include="core\controller\UIController.ts" />
+    <TypeScriptCompile Include="core\essentials\DesktopUI.ts" />
+    <TypeScriptCompile Include="core\essentials\Language.ts" />
+    <TypeScriptCompile Include="core\essentials\GameUI.ts" />
+    <TypeScriptCompile Include="core\interfaces\IDisplayVisual.ts" />
+    <TypeScriptCompile Include="core\Version.ts" />
+    <TypeScriptCompile Include="core\views\BigWinPopupView.ts" />
+    <TypeScriptCompile Include="core\views\MatrixBoxView.ts" />
+    <TypeScriptCompile Include="core\modules\GameInformation.ts" />
+    <TypeScriptCompile Include="core\parts\BitmapTextButton.ts" />
+    <TypeScriptCompile Include="core\parts\Dictionary.ts" />
+    <TypeScriptCompile Include="core\parts\TextButton.ts" />
+    <TypeScriptCompile Include="core\controller\DataController.ts" />
+    <TypeScriptCompile Include="core\controller\AnimationsController.ts" />
+    <TypeScriptCompile Include="core\controller\ResourceController.ts" />
+    <TypeScriptCompile Include="core\controller\SoundController.ts" />
+    <TypeScriptCompile Include="core\filters\GrayFilter.ts" />
+    <TypeScriptCompile Include="core\interfaces\IResponse.ts" />
+    <TypeScriptCompile Include="core\loaders\SoundLoader.ts" />
+    <TypeScriptCompile Include="core\parts\ParticleContainer.ts" />
+    <TypeScriptCompile Include="core\parts\SpriteText.ts" />
+    <TypeScriptCompile Include="core\stages\MainStage.ts" />
+    <TypeScriptCompile Include="core\views\BackgroundView.ts" />
+    <TypeScriptCompile Include="core\views\BetView.ts" />
+    <TypeScriptCompile Include="core\views\MatrixView.ts" />
+    <TypeScriptCompile Include="core\views\CardNumberView.ts" />
+    <TypeScriptCompile Include="core\views\CardView.ts" />
+    <TypeScriptCompile Include="core\views\ErrorPopup.ts" />
+    <TypeScriptCompile Include="core\views\PopupMV.ts" />
+    <TypeScriptCompile Include="core\views\MachineView.ts" />
+    <TypeScriptCompile Include="core\views\PayoutSelectorView.ts" />
+    <TypeScriptCompile Include="core\views\PayoutView.ts" />
+    <TypeScriptCompile Include="core\views\PlayView.ts" />
+    <TypeScriptCompile Include="core\views\TurboView.ts" />
+    <TypeScriptCompile Include="core\views\UIView.ts" />
+    <TypeScriptCompile Include="def\greensock.d.ts" />
+    <TypeScriptCompile Include="def\howler.d.ts" />
+    <TypeScriptCompile Include="def\pixi.js.d.ts" />
+    <TypeScriptCompile Include="def\pixi-filters.d.ts" />
+    <TypeScriptCompile Include="def\webfont-loader.d.ts" />
+    <TypeScriptCompile Include="core\components\BrandLogo.ts" />
+    <TypeScriptCompile Include="core\essentials\Database.ts" />
+    <TypeScriptCompile Include="core\managers\ResourceManager.ts" />
+    <TypeScriptCompile Include="core\essentials\Service.ts" />
+    <TypeScriptCompile Include="core\essentials\Ticker.ts" />
+    <TypeScriptCompile Include="core\essentials\Timer.ts" />
+    <TypeScriptCompile Include="core\filters\InvertFilter.ts" />
+    <TypeScriptCompile Include="core\filters\ToneFilter.ts" />
+    <TypeScriptCompile Include="core\Game.ts" />
+    <TypeScriptCompile Include="core\interfaces\IRenderTarget.ts" />
+    <TypeScriptCompile Include="core\interfaces\IStartupConfig.ts" />
+    <TypeScriptCompile Include="core\interfaces\ISoundObject.ts" />
+    <TypeScriptCompile Include="core\managers\DisplayManager.ts" />
+    <TypeScriptCompile Include="core\managers\SoundManager.ts" />
+    <TypeScriptCompile Include="core\managers\StageManager.ts" />
+    <TypeScriptCompile Include="core\modules\Stage.ts" />
+    <TypeScriptCompile Include="core\parts\AnimatedSprite.ts" />
+    <TypeScriptCompile Include="core\parts\BasicButton.ts" />
+    <TypeScriptCompile Include="core\parts\BitmapText.ts" />
+    <TypeScriptCompile Include="core\parts\Container.ts" />
+    <TypeScriptCompile Include="core\parts\Sprite.ts" />
+    <TypeScriptCompile Include="core\parts\Text.ts" />
+    <TypeScriptCompile Include="core\parts\ToggleButton.ts" />
+    <TypeScriptCompile Include="core\stages\AssetLoader.ts" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>SlotFramework</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57769</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:57769/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>True</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptModuleKind>None</TypeScriptModuleKind>
+    <TypeScriptOutFile>dist\js\bundle.js</TypeScriptOutFile>
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>

@@ -1,0 +1,93 @@
+{"frames": {
+
+"monitor/00050":
+{
+	"frame": {"x":1,"y":1,"w":464,"h":169},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":464,"h":169},
+	"sourceSize": {"w":464,"h":169},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"monitor/00051":
+{
+	"frame": {"x":1,"y":172,"w":464,"h":169},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":464,"h":169},
+	"sourceSize": {"w":464,"h":169},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"monitor/00052":
+{
+	"frame": {"x":1,"y":343,"w":464,"h":169},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":464,"h":169},
+	"sourceSize": {"w":464,"h":169},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"monitor/00053":
+{
+	"frame": {"x":1,"y":514,"w":464,"h":169},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":464,"h":169},
+	"sourceSize": {"w":464,"h":169},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"monitor/00054":
+{
+	"frame": {"x":1,"y":685,"w":464,"h":169},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":464,"h":169},
+	"sourceSize": {"w":464,"h":169},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"monitor/00055":
+{
+	"frame": {"x":1,"y":856,"w":464,"h":169},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":464,"h":169},
+	"sourceSize": {"w":464,"h":169},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"monitor/00056":
+{
+	"frame": {"x":1,"y":1027,"w":464,"h":169},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":464,"h":169},
+	"sourceSize": {"w":464,"h":169},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"monitor/00057":
+{
+	"frame": {"x":1,"y":1198,"w":464,"h":169},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":464,"h":169},
+	"sourceSize": {"w":464,"h":169},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"monitor/00058":
+{
+	"frame": {"x":1,"y":1369,"w":464,"h":169},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":464,"h":169},
+	"sourceSize": {"w":464,"h":169},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "monitorAnim-1.png",
+	"format": "RGBA8888",
+	"size": {"w":466,"h":1539},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8ca06afe4e49763f022951c37d576b61:f04ded45ef6bd1f9b008dec00feb5727:c736ad783f0278650b029017e7e84e72$"
+}
+}
